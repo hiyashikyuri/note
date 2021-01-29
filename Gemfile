@@ -42,6 +42,9 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'devise'
+gem 'devise-i18n'
+gem 'dotenv-rails'
 gem 'haml-rails'
 gem 'simple_form'
 
