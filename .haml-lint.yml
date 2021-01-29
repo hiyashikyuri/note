@@ -1,0 +1,12 @@
+linters:
+  LineLength:
+    enabled: false
+
+  IdNames:
+    enabled: false
+
+  ClassesBeforeIds:
+    enabled: false
+
+  ViewLength:
+    enabled: false

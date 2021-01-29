@@ -14,9 +14,22 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'factory_bot_rails'
+  gem 'ffaker'
+  gem 'rspec-rails'
+  gem 'pry-rails'
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rails_best_practices', require: false
+  gem 'haml_lint', require: false
 end
 
 group :development do
+  gem 'annotate' # modelにカラム情報などを記載するGem
+  gem 'rails-erd' # DB図を表示するGem
+  gem 'better_errors'
+  gem 'letter_opener' # メールを確認するためのGem
+  gem 'letter_opener_web' # メールを確認するためのGem
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
   gem 'spring'
@@ -29,4 +42,7 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'haml-rails'
+gem 'simple_form'
+
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
