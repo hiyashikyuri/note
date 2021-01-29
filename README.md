@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+[note.com](https://note.com/)
+みたいなブログ共有アプリを作ります。
 
-Things you may want to cover:
 
-* Ruby version
+## バージョン
 
-* System dependencies
+- Ruby 2.7.2
+- Rails 6.0.3
 
-* Configuration
+## セットアップ
 
-* Database creation
+```
+yarn install
+bundle install
+rails db:create
+rails db:migrate
 
-* Database initialization
+rails s
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## lint等チェック
+```
+bundle exec rspec
+bundle exec rubocop
+bundle exec rails_best_practices
+```
