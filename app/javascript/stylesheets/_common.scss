@@ -35,13 +35,15 @@ body {
 }
 
 .custom-header {
-  //h1 {
-  //  a {
-  //    font-size: 30px;
-  //    font-family: inherit;
-  //    font-weight: 400;
-  //  }
-  //}
+  h1 {
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 700;
+  }
+
+  .logo {
+    color: #2cb696;
+  }
 }
 
 .card {
