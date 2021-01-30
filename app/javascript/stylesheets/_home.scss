@@ -1,0 +1,77 @@
+.home {
+  .card {
+    border: 0;
+
+    .card-body {
+      padding: 0;
+    }
+
+    .card-footer {
+      padding: 0;
+      background-color: #fff;
+      border-top: 0;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 200px;
+    }
+
+    .card-title {
+      margin-bottom: 8px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      -webkit-font-feature-settings: "palt" 1;
+      font-feature-settings: "palt" 1;
+      font-size: 20px;
+    }
+
+    .card-text {
+      color: #787c7b;
+      text-align: justify;
+      font-size: 12px;
+    }
+
+    .heart-active {
+      color: #ea3f60;
+      font-size: 14px;
+    }
+
+    .card-footer-container {
+      display: grid;
+      grid-template-rows: 20px;
+      grid-template-columns: 20px 100px 1fr 30px 30px;
+    }
+
+    .user-icon {
+      grid-row: 1;
+      grid-column: 1 / 2;
+      width: 20px;
+      height: 20px;
+    }
+
+    .user-name {
+      grid-row: 1;
+      grid-column: 2 / 3;
+
+      font-size: 14px;
+      overflow: hidden;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #787c7b;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      pointer-events: auto;
+    }
+
+    .add {
+      grid-row: 1;
+      grid-column: 4 / 5;
+    }
+
+    .like {
+      grid-row: 1;
+      grid-column: 5 / 6;
+    }
+  }
+}
