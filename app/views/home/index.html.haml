@@ -1,12 +1,44 @@
 .container-fluid
   .container
-    %h1 Home#index
-    %p Find me in app/views/home/index.html.erb
-    .row
-      .col-4
-        test1
-      .col-4
-        test1
-      .col-4
-        test1
+    .row.mt-4
+      .col-2.text-center
+        -# TOOD, 左のサイドバー
+      .col-8
+        .row
+          .col-6
+            .card
+              %img.card-img-top{ alt: 'Card image cap', src: '/dog.jpg'}
+              .card-body
+                %h5.card-title.mt-3
+                  デザイントレンドと予想される未来
+                %p.card-text
+                  こんにちは👋きびです。パーパスモデルの記事も４本目。場の4事例にはじまり、ソーシャルアクション4事例、
+                  読み方書き方とツールキットの公開ときて、今回のテーマは『環境』です。この記事では共創を可視化する「パーパスモデル」という手法で図解した本人が『いい・・・！』と思った事例を紹介し…
+                .heart.heart-active
+                  %i.far.fa-heart
+                  40
+              .card-footer.card-footer-container.mt-3
+                %img.user-icon.mx-auto{ alt: 'Card image cap', src: '/user.png'}
+                %span.user-name 鈴木太郎
+                %i.fas.fa-folder-plus.user-name.add.mx-auto
+                %i.far.fa-heart.user-name.like.mx-auto
+          .col-6
+            .card
+              %img.card-img-top{ alt: 'Card image cap', src: '/groud.jpg'}
+              .card-body
+                %h3.card-title.mt-3
+                  デザイントレンドと予想される未来
+                %p.card-text
+                  こんにちは👋きびです。パーパスモデルの記事も４本目。場の4事例にはじまり、ソーシャルアクション4事例、
+                  読み方書き方とツールキットの公開ときて、今回のテーマは『環境』です。この記事では共創を可視化する「パーパスモデル」という手法で図解した本人が『いい・・・！』と思った事例を紹介し…
+                .heart.heart-active
+                  %i.far.fa-heart
+                  40
+              .card-footer.card-footer-container.mt-3
+                %img.user-icon.mx-auto{ alt: 'Card image cap', src: '/user.png'}
+                %span.user-name 鈴木太郎
+                %i.fas.fa-folder-plus.user-name.add.mx-auto
+                %i.far.fa-heart.user-name.like.mx-auto
+      .col-2.text-center
+        -# TOOD, 右のサイドバー
 
